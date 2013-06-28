@@ -20,7 +20,8 @@
         	<?php include ('assets/includes/header.php') ?>
         </div>
         <div class="contentArea">
-			
+        	<?php include ('assets/includes/contentPages/contentSubSelector.php');?>
+			<?php include ('assets/includes/dynamicContent.php');?>
         </div>
         <div id="footer">
         	<?php include ('assets/includes/footer.php')?>

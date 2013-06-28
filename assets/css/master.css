@@ -97,6 +97,9 @@ body{
 	display:inline;	
 	margin-right:1.5%;
 }
+.clear{
+	clear:both;	
+}
 /* ----- Homepage ----- */
 .homeContent{
 	margin:0 auto;
@@ -232,7 +235,7 @@ body{
 	right:7%;
 	margin-top:70%;
 	text-align:right;
-	font-size:150%;
+	font-size:110%;
 	font-family: "iskra";
 	color:#000;
 	line-height:100%;
@@ -243,6 +246,69 @@ body{
 	max-width:1280px;
 	width:80%;
 }
+.bannerContainer{
+	width:100%;
+}
+.bannerContainerContent{
+	margin-top:1%;
+}
+.bannerContainerContent img{
+	float:left;
+	width:100%;	
+}
+.bannerContainerWords{
+	float:left;
+	margin-top:-6%;	
+	margin-left:2%;
+}
+.pageHeader{
+	font-family: "iskra";
+	color:#FFF;
+	font-size:350%;	
+	font-weight:normal;
+}
+.dynamicContent{
+	background:#FFF;
+	margin-top:15px;
+	width:100%;
+	border-radius:5px;
+	color:#000 ;
+	min-height:200px;
+	margin-bottom:15px;
+}
+.dynamicContent h1{
+	font-family: "iskra";
+	color:#C63;
+	font-size:250%;
+	font-weight:normal
+}
+.dynamicContent h2{
+	font-family: "iskra";
+	color:#C00;
+	font-size:175%;
+	font-weight:normal
+}
+.dynamicContent h3{
+	font-family: "iskra";
+	color:#09F;
+	font-size:125%;
+	font-weight:normal
+}
+.dynamicContent ul{
+	list-style:none;
+}
+.dynamicContent li{
+	padding-left:2%;
+}
+.dynamicContent a{
+	
+}
+.dynamicContent p{
+	font-size:95%;
+	color:#666;
+	line-height:160%;
+}
+
 @media only screen and (max-width: 1280px){
 /* IPAD RESOLUTION */
 

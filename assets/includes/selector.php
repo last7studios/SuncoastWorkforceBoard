@@ -1,18 +1,3 @@
-<script>
-	$(document).ready(function(){
-		$('.jobSeeker').hover(function(){$('.growA').animate({opacity:1},90,function(){});});
-		$('.jobSeeker').mouseleave(function(){$('.growA').animate({opacity:.65},90,function(){});});
-	});
-	$(document).ready(function(){
-		$('.employer').hover(function(){$('.growB').animate({opacity:1},90,function(){});});
-		$('.employer').mouseleave(function(){$('.growB').animate({opacity:.65},90,function(){});});
-	});
-	$(document).ready(function(){
-		$('.resources').hover(function(){$('.growC').animate({opacity:1},90,function(){});});
-		$('.resources').mouseleave(function(){$('.growC').animate({opacity:.65},90,function(){});});
-	});
-
-</script>
 <div class="selector">
   <div class="portalSelector">
     <div class="jobSeeker">
@@ -49,7 +34,7 @@
             	Find Resources 
             </div>
             <div class="linkTextResources">
-            	Community Partners <br />& Resources
+            	Community<br /> Partners &<br /> Resources
             </div>
         </div>
     </div>
