@@ -5,9 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Suncoast Workforce</title>
 <?php include ('assets/includes/global.php')?>
-
 </head>
-
 <body>
 <div id="wrapper">
 	<div id="container">
@@ -19,16 +17,12 @@
     	<div id="header">
         	<?php include ('assets/includes/header.php') ?>
         </div>
-        <div class="contentArea">
-        	<?php include ('assets/includes/contentPages/contentSubSelector.php');?>
-			<?php include ('assets/includes/dynamicContent.php');?>
+        <div class="homeContent">
+        	<?php include ('assets/includes/selectorCareers.php')?>
         </div>
         <div id="footer">
         	<?php include ('assets/includes/footer.php')?>
-        </div>  
-        <div class="maps">
-        	<?php include ('assets/includes/maps.php')?>
-        </div>   
+        </div>
     </div>
 </div>
 </body>

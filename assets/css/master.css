@@ -50,7 +50,11 @@ body{
 	color:#f5c01e;
 }	
 .careerSeekerDropNav{
-	
+	text-align:left;
+	padding-left:2%;
+	list-style:none;
+	padding-top:1%;
+	float:left;	
 }
 #navFirst{
 	border-left:solid 1px #7b7b7b;
@@ -82,6 +86,7 @@ body{
 	max-width:1280px;
 	height:30px;
 	border-radius:5px;
+	overflow:hidden;
 }
 .copyright{
 	float:left;
@@ -100,6 +105,85 @@ body{
 .clear{
 	clear:both;	
 }
+.maps{
+	max-width:1280px;
+	margin:0 auto;
+	width:100%;
+	overflow:auto;
+	margin-bottom:30px;
+	margin-top:1%;
+}
+.maps h2{
+	font-family: "iskra";
+	font-size:130%;
+	line-height:75%;
+	padding-bottom:1%;
+	color:#09F;
+	
+}
+.mapManatee{
+	float:left;
+	width:29%;
+	padding:1%;
+	margin-right:2.1%;	
+}
+.mapManatee img{
+	width:50%;
+	border-radius:5px;	
+	box-shadow:0px 1px 10px #000;
+	margin-right:1.5%;
+}
+.ManateeInfo li{
+	list-style:none;
+	font-size:65%;
+}
+.mapManatee h1{
+	color:#C00;
+	font-family: "iskra";
+	font-size:120%;
+}
+.mapSarasota{
+	float:left;	
+	width:29%;	
+	padding:1%;	
+	margin-right:2.1%;	
+}
+.mapSarasota img{
+	width:50%;
+	border-radius:5px;	
+	box-shadow:0px 1px 10px #000;
+	margin-right:1.5%;
+}
+.SarasotaInfo li{
+	list-style:none;
+	font-size:65%;
+}
+.mapSarasota h1{
+	color:#C00;
+	font-family: "iskra";
+	font-size:120%;
+}
+.mapVenice{
+	float:left;	
+	width:29%;	
+	padding:1%;
+	margin-right:2.1%;	
+}
+.mapVenice img{
+	width:50%;
+	border-radius:5px;	
+	box-shadow:0px 1px 10px #000;
+	margin-right:1.5%;
+}
+.VeniceInfo li{
+	list-style:none;
+	font-size:65%;
+}
+.mapVenice h1{
+	color:#C00;
+	font-family: "iskra";
+	font-size:120%;
+}
 /* ----- Homepage ----- */
 .homeContent{
 	margin:0 auto;
@@ -115,7 +199,7 @@ body{
 	overflow:hidden;
 	position:relative;
 }
-/* ----- Job Seeker ----- */	
+/* ----- Job Seeker Selector ----- */	
 .jobSeeker{
 	position:relative;
 	float:left;
@@ -159,7 +243,7 @@ body{
 	font-family: "iskra";
 	line-height:75%;
 }
-/* ----- Employeer ----- */	
+/* ----- Employeer Selector ----- */	
 .employer{
 	position:relative;
 	float:left;
@@ -203,7 +287,7 @@ body{
 	color:#000;
 	line-height:75%;
 }
-/* ----- Resources ----- */	
+/* ----- Resources Selector ----- */	
 .resources{
 	position:relative;
 	float:left;	
@@ -268,6 +352,7 @@ body{
 	font-weight:normal;
 }
 .dynamicContent{
+	padding:.5%;
 	background:#FFF;
 	margin-top:15px;
 	width:100%;
@@ -308,7 +393,140 @@ body{
 	color:#666;
 	line-height:160%;
 }
-
+.selectorCareers{
+	margin:30px auto;
+	background:#e6e6e6;
+	width:93%;
+	border-radius:10px;
+	padding:10px;
+	overflow:hidden;
+	position:relative;
+}
+/* ----- Young Adult Selector ----- */	
+.youngAdult{
+	position:relative;
+	float:left;
+	width:33%;
+	margin-right:.5%;
+}
+.youngAdult img{
+	float:left;
+	width:100%;	
+}
+.youngAdultWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineYoungAdult{
+	position:absolute;
+	text-align:center;
+	font-size:265%;
+	line-height:90%;
+	margin-top:20%;
+	right:5%;
+	color:#FFF;
+	width:161px;
+	font-family: "iskra";
+}	
+.linkTextYoungAdult{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:125%;
+	font-family: "iskra";
+	color:#000;
+}
+.linkTextYoungAdult h1{
+	font-size:139%;
+	font-weight:normal;
+	color:#000;
+	font-family: "iskra";
+	line-height:75%;
+}
+/* ----- Adult Selector ----- */	
+.adult{
+	position:relative;
+	float:left;
+	width:33%;
+	margin-right:.5%;
+}
+.adult img{
+	float:left;
+	width:100%;	
+}
+.adultWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineAdult{
+	position:absolute;
+	text-align:center;
+	font-size:275%;
+	line-height:100%;
+	margin-top:20%;
+	right:5%;
+	color:#FFF;
+	width:200px;
+	font-family: "iskra";
+}	
+.linkTextAdult{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:125%;
+	font-family: "iskra";
+	color:#000;
+}
+.linkTextAdult h1{
+	font-size:139%;
+	font-weight:normal;
+	font-family: "iskra";
+	color:#000;
+	line-height:75%;
+}
+/* ----- Veteran Selector ----- */	
+.veteran{
+	position:relative;
+	float:left;	
+	width:33%;
+}
+.veteran img{
+	float:left;
+	width:100%;
+}
+.veteranWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineVeteran{
+	position:absolute;
+	text-align:center;
+	font-size:250%;
+	line-height:90%;
+	margin-top:20%;
+	right:-3%;
+	color:#FFF;
+	width:245px;
+	font-family: "iskra";
+}	
+.linkTextVeteran{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:110%;
+	font-family: "iskra";
+	color:#000;
+	line-height:100%;
+}
 @media only screen and (max-width: 1280px){
 /* IPAD RESOLUTION */
 

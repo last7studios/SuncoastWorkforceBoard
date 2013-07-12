@@ -22,7 +22,7 @@
         </div>
         <div id="footer">
         	<?php include ('assets/includes/footer.php')?>
-        </div>    
+        </div>
     </div>
 </div>
 </body>

@@ -60,3 +60,31 @@
 	});
 
 </script>
+<!----------------------------------------------------------------------------------------
+-------------------------------- Jquery Careers Selector --------------------------------
+----------------------------------------------------------------------------------------->
+<script>
+	$(document).ready(function(){
+		$('.youngAdult')
+		.hover(function(){
+			$('.CSA').stop().animate({opacity:1}, 'fast');
+		}, function(){
+			$('.CSA').stop().animate({opacity:.65}, 'fast');
+		});
+
+		$('.adult')
+		.hover(function(){
+			$('.CSB').stop().animate({opacity:1}, 'fast');
+		}, function(){
+			$('.CSB').stop().animate({opacity:.65}, 'fast');
+		});
+		
+		$('.veteran')
+		.hover(function(){
+			$('.CSC').stop().animate({opacity:1}, 'fast');
+		}, function(){
+			$('.CSC').stop().animate({opacity:.65}, 'fast');
+		});		
+	});
+
+</script>

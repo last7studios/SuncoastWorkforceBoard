@@ -3,3 +3,6 @@
 	<li>Talent Sourcing</li>
 	<li>Talent Development</li>
 </ul>
+<div class="employersBackground">
+	<img src="<?=IMAGE_PATH?>navBackgrounds/employers.png" />
+</div>

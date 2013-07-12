@@ -17,6 +17,7 @@ z-index:10;
 float:left;
 }
 
+
 .contentBoxEOpen{
 color:#FFF;
 width:80%;
@@ -49,4 +50,14 @@ margin-left:-300px;
 overflow:hidden;
 z-index:10;
 float:left;
+}
+
+.careersSeekerBackground{
+	float:right;	
+}
+.employersBackground{
+	float:right;	
+}
+.resourcesBackground{
+	float:right;	
 }
